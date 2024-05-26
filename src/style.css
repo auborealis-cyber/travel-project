@@ -225,13 +225,16 @@ margin: 0 auto;
         margin: 0;
     }
     
+    .img-responsive{
+        max-width: 1000px;
+    }
+
     .img-responsive-2{
         max-width: 750px;
         max-height: 200px;
     }
     .embed{
-        height:315px;
-        width: 560px;
+        text-align: center;
     }
 }
 

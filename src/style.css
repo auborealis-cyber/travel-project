@@ -112,6 +112,9 @@ section{
   background-color: #9B3830;
   text-decoration: none;
 }
+.waaam-media img{
+    border-radius: 10px;
+}
 footer {
     text-align: center;
     color: black;
@@ -144,15 +147,24 @@ footer li {
 }
 
 footer a {
-    color: black;
+    color: #9B3830;
     font-size: 12px;
+}
+
+footer a:hover{
+    text-decoration: none;
 }
 
 footer img{
     filter: grayscale(80%);
 }
+.embed{
+    width:100%;
+    display: block;
+    border-radius: 15px;
+}
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 .img-responsive-1{
@@ -216,6 +228,10 @@ margin: 0 auto;
     .img-responsive-2{
         max-width: 750px;
         max-height: 200px;
+    }
+    .embed{
+        height:315px;
+        width: 560px;
     }
 }
 

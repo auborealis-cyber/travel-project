@@ -26,6 +26,15 @@ header {
   
 }
 
+button a{
+    text-decoration: none;
+    color: #9B3830;
+}
+
+button a:hover{
+    text-decoration: underline;
+}
+
 .hero h1{
 font-size: 50px;
 padding: 10px;
